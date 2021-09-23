@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" alt=""> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">hello</a></li>
+                    <li><a href="#">hello</a></li>
+                    <li><a href="#">hello</a></li>
+                    <li><a href="#">hello</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <h1>World's Biggest university</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sunt ratione, repellendus totam officiis illo rem sed fuga provident corrupti, accusantium facere quae earum quas tempora aperiam rerum aliquam repudiandae?</p>
+    <a href="#" class="hero-btn">Visit us to know moew</a>
+</div>
+    </section>
+    <!-- -------cource--------- -->
+    <section class="course">
+     <h1>cources we offer</h1>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sunt, quod illo dolores explicabo perferendis eligendi dolorum nulla.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime numquam sint quam beatae, debitis accusantium aperiam eius quibusdam rem voluptates. Error animi quidem quis fugit iste rem aperiam placeat rerum.</p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime numquam sint quam beatae, debitis accusantium aperiam eius quibusdam rem voluptates. Error animi quidem quis fugit iste rem aperiam placeat rerum.</p>
+        </div>
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime numquam sint quam beatae, debitis accusantium aperiam eius quibusdam rem voluptates. Error animi quidem quis fugit iste rem aperiam placeat rerum.</p>
+        </div>
+    </div>
+
+
+
+
+    </section>
+</body>
+<!-- javascript for toggle menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+</html>
